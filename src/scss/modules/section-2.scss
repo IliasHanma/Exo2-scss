@@ -6,8 +6,9 @@
         padding: 4%;
 
         #div-1-image>img{
-            border-radius: 200px 200px 200px 200px;
-            border:transparent solid 1px;
+            border-radius: 100%;
+            // border:transparent solid 1px;
+            width: 350px;
         }
 
         #div-1-1{
@@ -15,6 +16,7 @@
             
             h1{
                 font-size: 270%;
+                // line-height: 0.5;
             }
         }
     }
@@ -27,6 +29,8 @@
         img{
             border-radius: 200px 200px 200px 200px;
             border:transparent solid 1px;
+            width: 350px;
+
             
         }
 
@@ -48,6 +52,7 @@
         img{
             border-radius: 200px 200px 200px 200px;
             border:transparent solid 1px;
+            width: 350px;
             
         }
 
@@ -59,6 +64,78 @@
 
             h1{
                 font-size: 270%;
+            }
+        }
+    }
+}
+
+@media (min-width:360px) and (max-width:600px) {
+    .section-2{
+
+        .div-1{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 4%;
+    
+            #div-1-image>img{
+                border-radius: 100%;
+                // border:transparent solid 1px;
+                width: 200px;
+                
+            }
+    
+            #div-1-1{
+                padding: 2%;
+                
+                h1{
+                    font-size: 270%;
+                }
+            }
+        }
+    
+        .div-2{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 4%;
+    
+            img{
+                border-radius: 200px 200px 200px 200px;
+                border:transparent solid 1px;
+                height: 200px;
+                
+            }
+    
+            #div-2-2{
+    
+                padding: 5%;
+    
+                h1{
+                    font-size: 270%;
+                }
+            }
+        }
+    
+        .div-3{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 4%;
+    
+            img{
+                border-radius: 200px 200px 200px 200px;
+                border:transparent solid 1px;
+                height: 200px;
+                
+            }
+    
+        
+    
+            #div-3-3{
+    
+                padding: 5%;
+    
+                h1{
+                    font-size: 270%;
+                }
             }
         }
     }
